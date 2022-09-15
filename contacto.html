@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <title>Contacto</title>
+<link rel="stylesheet" href="./estilos.css">
+
+
+</head>
+<body id="contacto">
+
+<div class="contacto-area">  
+<header>
+    <div class="contacto-navbar"> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-md">
+          <a class="navbar-brand" href="./index.html">Menu Principal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./carrito.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ubicacion</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Info
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Comunicate con nosotros</a></li>
+                  <li><a class="dropdown-item" href="#">Calendario</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Recomendaciones</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</div>
+
+</header>
+
+
+<section>
+    
+    <div class="container">
+      <form id="idForm">
+        <div class="col-md-4">
+          <label for="username" class="form-label"><h4>Nombre de Usuario</h4></label>
+          <input type="username" class="form-control" id="username">
+        </div>
+        <div class="col-md-4">
+          <label for="password" class="form-label"><h4>Contraseña</h4></label>
+          <input type="password" class="form-control" id="password">
+        </div>
+        <div class="col-md-4">
+          <label for="email" class="form-label"><h4>Ingresar E-mail</h4></label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="email" class="form-control" id="email">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="ciudad" class="form-label"><h4>Ciudad</h4></label>
+          <input type="ciudad" class="form-control" id="ciudad">
+        </div>
+        <div class="col-md-3">
+          <label for="provicncia" class="form-label"><h4>Provincia</h4></label>
+          <select class="form-select" id="provincia">
+            <option selected disabled value="">Ninguna</option>
+            <option>mendoza</option>
+            <option>san juan</option>
+            <option>san Luis</option>
+            <option>Cordoba</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="cpostal" class="form-label"><h4>C.P</h4></label>
+          <input type="cpostal" class="form-control" id="cpostal">
+        </div>
+      
+
+      <div class="mb-3">
+        <label for="validationTextarea" class="form-label"><h4>Deje su mensaje aqui</h4></label>
+        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea"></textarea>
+        <div class="invalid-feedback">
+          Deje su mensaje
+        </div>
+      </div>
+     
+    </div>
+  
+
+    <button type="submit" class="btn btn-dark">Crear Usuario</button>
+  </form>
+</div><br><br>
+
+<div class="container">
+<div id="divUsers" class="row"></div>
+</div>
+    </form> 
+  
+
+
+
+
+  </div>
+</section>
+
+
+<footer>
+
+    
+ 
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="./servicios.html">Anterior</a></li>
+          <li class="page-item"><a class="page-link" href="../index.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="./Nuestros-productos.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="./lista-de-precios.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="./servicios.html">4</a></li>
+          <li class="page-item"><a class="page-link" href="./contacto.html">5</a></li>
+          <li class="page-item"><a class="page-link" href="../index.html">Siguiente</a></li>
+        </ul>
+      </nav>
+
+ 
+    
+
+</footer>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+   
+<script src="./js/contacto.js"></script>
+
+</body>
+</html>
